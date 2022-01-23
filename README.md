@@ -9,13 +9,21 @@ void solve(vector<vector<int>> maze, int goal_i, int goal_j);
 // considering maze[goal_i][goal_j] == 0 and is the goal
 ```
 
+### Example 
+#### Input:
+![carbon(1)](https://user-images.githubusercontent.com/52910057/150692954-e680cc58-5646-486d-8a10-e91ebbbbf8af.png)
+
+#### Output: 
+![carbon](https://user-images.githubusercontent.com/52910057/150692965-ebda38c0-0b44-4922-8cea-6277d83eb032.png)
+
+
 ## To Run
 
 It has a Debug Feature, if the Macro ```DEBUG``` is defined all logging would be activated.
 
 A make file is included to make the executable. Use the following command:
 
-``$ make out``
+``$ make all``
 
 and an executable named `a.out` would be generated
 
